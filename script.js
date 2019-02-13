@@ -3,11 +3,11 @@ const a='Hello', b='World', sayHello=`${a} ${b}`
 console.log(`Task 1: ${sayHello}`)
 
 //2
-const multiply = (a,b=1) => a*b
+const multiply = (a, b = 1) => a * b
 console.log(`Task 2: 2 * 5 = ${multiply(2,5)}, but 2 * 1 = ${multiply(2)}`)
 
 //3
-const average = (...num) => num.reduce((x,y) => x+y) / num.length
+const average = (...num) => num.reduce((x,y) => x + y) / num.length
 console.log(`Task 3: average of 1,3,6,6 is equal to ${average(1,3,6,6)}`)
 
 //4
